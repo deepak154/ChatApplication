@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.silverbox.chatapplication">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconchat"
+        android:label="ChatApp"
+        android:roundIcon="@drawable/iconchat"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:label="LogIn" />
+        <activity
+            android:name=".Activities.SignUpActivity"
+            android:label="SignUp" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:label="ChatApp"
+            android:theme="@style/AppTheme1.NoActionBar">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity android:name=".Activities.ChatActivity" />
+        <activity
+            android:name=".Activities.TabbedHostIntial"
+            android:label="ChatApp" />
+        <activity android:name=".Activities.UploadImage"
+            android:label="Upload Profile Picture">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Chat Application</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ChatApp</string>
+    <string name="nav_header_subtitle">Share Secrets With Strangers!!!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">LogOut</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabbed_host_intial">TabbedHostIntial</string>
+    <string name="strangerText">Someone You Know Nothing About... And Someone Who Know\'s Nothing About You.</string>
+    <string name="birdText">ChatApp... A perfect Platform , Speak Your Mind... Doesn\'t Matter Whether You Are An Introvert Or A Chatty Bird.</string>
+    <string name="talkText">With No Dilemma Of Getting Judged. With A Clean Chit... Take A Chance With A Stranger.</string>
+</resources>

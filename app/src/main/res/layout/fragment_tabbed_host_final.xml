@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/b2ackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.TabbedHostIntial$PlaceholderFragment">
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/birdchatpage"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/birdIV"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/birdchat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Social Bird"
+        android:id="@+id/birdTV"
+        android:layout_below="@id/birdIV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/birdText"
+        android:gravity="center"
+        android:layout_below="@id/birdTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:textColor="#344152"/>
+
+
+
+    <Button
+        android:layout_width="110dp"
+        android:textAllCaps="true"
+        android:layout_height="50dp"
+        android:text="FINISH"
+        android:id="@+id/finishBT"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/back2"
+        android:textColor="#344152"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"
+        />
+    <Button
+        android:layout_width="110dp"
+        android:textAllCaps="true"
+        android:layout_height="50dp"
+        android:text="Previous"
+        android:id="@+id/previousFBT"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/back2"
+        android:textColor="#344152"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        />
+
+</RelativeLayout>
